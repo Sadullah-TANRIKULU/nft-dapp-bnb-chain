@@ -1,0 +1,13 @@
+  496  npx create-next-app .
+  497  code .
+  498  exit
+  499  npm run dev
+  500  exit
+  501  npx hardhat node
+  502  history >> notes.txt
+
+npx hardhat node --> local de server bir blockchain çalıştırır.
+npx hardhat run scripts/deploy.js --network localhost --> deploy eder
+Started HTTP and WebSocket JSON-RPC server at http://127.0.0.1:8545/
+
+metamask içinde ayarlar -> gelişmiş -> hesabı sıfırla " aynı heasbı yeni oluşturulan node da kullanmaya çalışınca çıkan hatanın giderilmesi için
